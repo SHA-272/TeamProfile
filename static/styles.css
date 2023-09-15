@@ -1,0 +1,95 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #00ff00;
+    text-align: center;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.text_type {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 0;
+    animation: typing 4s steps(30, end) forwards; /* Добавляем forwards чтобы остановить анимацию на последнем кадре */
+}
+
+.text_type::after {
+    content: "_";
+    position: absolute;
+    right: 0;
+    animation: blinking 1s step-end infinite;
+}
+
+.text_type.typed::after {
+    animation: none;
+}
+
+@keyframes typing {
+    0% {
+        max-width: 0;
+    }
+    100% {
+        max-width: 100%;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+li {
+    background-color: #111;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+strong {
+    font-size: 1.2em;
+}
+
+p {
+    margin: 5px 0;
+}
+.results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.results-list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 5px;
+}
+.team-logo {
+    border-radius: 0%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+

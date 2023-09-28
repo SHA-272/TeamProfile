@@ -5,35 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHA-272 - CTF Team</title>
-    <img src="{{ url_for('static', filename='logo.png') }}" alt="Team Logo" class="team-logo">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 
 </head>
 <body>
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const textElement = document.querySelector('.text_type');
-
-        textElement.addEventListener('animationend', function() {
-            textElement.classList.add('typed');
-        });
-    });
-</script>
-<h1><span class="text_type">Welcome to SHA-272 CTF Team Website!</span></h1>
+<h1><span>Welcome to SHA-272 CTF Team Profile</span></h1>
     <h2>Members:</h2>
     <ul>
         {% for member in members %}
             <li>
                 <strong>{{ member.name }}</strong> - {{ member.role }}
-                <p>Achievements: {{ member.achievements }}</p>
+                <p>Quote: {{ member.quote }}</p>
             </li>
         {% endfor %}
     </ul>
-<h2>Our Achievements</h2>
+<h2>CTF Participation:</h2>
 <ul class="results-list">
     {% for event in events %}
     <li>
-        <strong>{{ event.name }}</strong> - {{ event.score }} ({{event.place}}th)
+        <strong>{{ event.name }}</strong> - {{ event.score }} ({{ event.place }}th) Date: {{ event.date }}
     </li>
     {% endfor %}
 </ul>

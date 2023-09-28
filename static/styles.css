@@ -1,55 +1,32 @@
+::selection {
+    background: var(--fore-color);
+    color: var(--back-color);
+  }
+
+:root {
+    --back-color: black;
+    --fore-color: #0f0;
+    --bloom-filter: drop-shadow(0 0 2px var(--fore-color)); 
+}
+
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #000;
-    color: #00ff00;
+    background-color: var(--back-color);
+    color: var(--fore-color);
+    font-family: 'Lucida Console', Monaco, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 50px;
     margin: 0;
-    padding: 0;
+    filter: var(--bloom-filter);
 }
 
 h1, h2 {
-    color: #00ff00;
+    color: var(--fore-color);
     text-align: center;
     display: block;
     width: 100%;
     overflow: hidden;
 }
-
-.text_type {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    max-width: 0;
-    animation: typing 4s steps(30, end) forwards; /* Добавляем forwards чтобы остановить анимацию на последнем кадре */
-}
-
-.text_type::after {
-    content: "_";
-    position: absolute;
-    right: 0;
-    animation: blinking 1s step-end infinite;
-}
-
-.text_type.typed::after {
-    animation: none;
-}
-
-@keyframes typing {
-    0% {
-        max-width: 0;
-    }
-    100% {
-        max-width: 100%;
-    }
-}
-
-@keyframes blinking {
-    50% {
-        opacity: 0;
-    }
-}
-
-
 
 ul {
     list-style-type: none;
@@ -57,7 +34,7 @@ ul {
 }
 
 li {
-    background-color: #111;
+    background-color: var(--back-color);
     margin: 10px;
     padding: 15px;
     border-radius: 5px;
@@ -81,7 +58,7 @@ p {
 .results-list li {
     display: flex;
     justify-content: space-between;
-    background-color: #111;
+    background-color: var(--back-color);
     padding: 10px;
     border-radius: 5px;
 }

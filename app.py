@@ -7,13 +7,13 @@ def home():
     conn = sqlite3.connect('data.db')
     cursor = conn.cursor()
 
-    cursor.execute("SELECT name, score, place FROM events")
+    cursor.execute("SELECT name, role, quote FROM members")
     fetched_data = cursor.fetchall()
-    events = [{"name": name, "score": score, "place": place} for name, score, place in fetched_data]
-
-    cursor.execute("SELECT name, role, achievements FROM members")
+    members = [{"name": name, "role": role, "quote": quote} for name, role, quote in fetched_data]
+    
+    cursor.execute("SELECT name, score, place, date FROM events ORDER BY place")
     fetched_data = cursor.fetchall()
-    members = [{"name": name, "role": role, "achievements": achievements} for name, role, achievements in fetched_data]
+    events = [{"name": name, "score": score, "place": place, "date": date} for name, score, place, date in fetched_data]
 
     conn.close()
 

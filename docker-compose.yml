@@ -3,8 +3,6 @@ version: '3'
 services:
   team_profile:
     build: .
-    ports:
-      - "5000:5000"
     networks:
       ctfnet:
         ipv4_address: 10.0.0.20

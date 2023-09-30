@@ -11,7 +11,7 @@ def home():
     fetched_data = cursor.fetchall()
     members = [{"name": name, "role": role, "quote": quote} for name, role, quote in fetched_data]
     
-    cursor.execute("SELECT name, score, place, date FROM events ORDER BY place")
+    cursor.execute("SELECT name, score, place, date FROM events ORDER BY date DESC")
     fetched_data = cursor.fetchall()
     events = [{"name": name, "score": score, "place": place, "date": date} for name, score, place, date in fetched_data]
 

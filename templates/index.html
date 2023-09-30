@@ -23,7 +23,7 @@
 <ul class="results-list">
     {% for event in events %}
     <li>
-        <strong>{{ event.name }}</strong> - {{ event.score }} ({{ event.place }}th) Date: {{ event.date }}
+        <strong>{{ event.name }} - {{ event.date }}</strong> - {{ event.score }} ({{ event.place }}th)
     </li>
     {% endfor %}
 </ul>

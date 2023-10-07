@@ -3,6 +3,10 @@ version: '3'
 services:
   team_profile:
     build: .
+    volumes:
+      - ./static:/static
+      - ./templates:/templates
+      - ./data.db:/data.db
     networks:
       ctfnet:
         ipv4_address: 10.0.0.20

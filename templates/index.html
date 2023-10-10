@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHA-272 - CTF Team</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-
+    <link type="text/css" rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-<h1><span>Welcome to SHA-272 CTF Team Profile</span></h1>
+    <h1><span>Welcome to SHA-272 CTF Team Profile</span></h1>
+    <div class="horizontal-align">
+        <a class="team-link" href="https://ctftime.org/team/202266">CTFtime</a>
+        <a class="team-link" href="https://krductf.ru">KRDUCTF</a>    
+    </div>
     <h2>Members:</h2>
     <ul>
         {% for member in members %}
             <li>
-                <strong>{{ member.name }}</strong> - {{ member.role }}
-                <p>Quote: {{ member.quote }}</p>
+                <a class="member-link" href="{{ member.link }}"><strong>{{ member.name }}</strong></a> {{ member.role }}
+                <p>{{ member.quote }}</p>
             </li>
         {% endfor %}
     </ul>
@@ -23,7 +26,7 @@
 <ul class="results-list">
     {% for event in events %}
     <li>
-        <strong>{{ event.name }} - {{ event.date }}</strong> - {{ event.score }} ({{ event.place }}th)
+        <strong><a class="member-link">{{ event.name }}</strong></a>{{ event.date }} - {{ event.score }} points ({{ event.place }}th)
     </li>
     {% endfor %}
 </ul>

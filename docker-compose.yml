@@ -6,7 +6,7 @@ services:
     volumes:
       - ./static:/static
       - ./templates:/templates
-      - ./data.db:/data.db
+      - ./data:/data
     restart: unless-stopped
     networks:
       ctfnet:

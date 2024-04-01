@@ -7,7 +7,7 @@ services:
       - ./static:/static
       - ./templates:/templates
       - ./data.db:/data.db
-    restart: on-failure
+    restart: unless-stopped
     networks:
       ctfnet:
         ipv4_address: 10.0.0.20

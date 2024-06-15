@@ -1,7 +1,7 @@
 /* Определение шрифта */
 @font-face {
     font-family: PixelFont;
-    src: url(./pixeltimes.ttf);
+    src: url(../fonts/pixeltimes.ttf);
 }
 
 @keyframes neonGlow {
@@ -36,7 +36,7 @@
 
 /* Стили для body */
 body {
-    background-image: url(./images/retro_back.gif);
+    background-image: url(../images/retro_back.gif);
     background-position: center;
     background-attachment: fixed;
     background-size: 200vh;

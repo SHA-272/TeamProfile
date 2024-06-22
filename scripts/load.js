@@ -1,32 +1,35 @@
-document.addEventListener("DOMContentLoaded", function () {
-  fetch("./data/members.json")
-    .then((response) => response.json())
-    .then((members) => {
-      let membersList = document.getElementById("members-list");
-      members.forEach((member) => {
-        let listItem = document.createElement("li");
-        let link = document.createElement("a");
-        link.className = "member-link";
-        link.href = member.link;
-        link.innerHTML = `<strong>${member.name}</strong>`;
-        listItem.appendChild(link);
-        listItem.innerHTML += ` ${member.role}`;
-        let quote = document.createElement("p");
-        quote.textContent = member.quote;
-        listItem.appendChild(quote);
-        membersList.appendChild(listItem);
-      });
+fetch("./data/members.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const membersContainer = document.getElementById("members");
+    data.forEach((member) => {
+      const memberDiv = document.createElement("div");
+      memberDiv.classList.add("member");
+      memberDiv.innerHTML = `
+                <h2><a href="${member.link}" target="_blank">${member.name}</a></h2>
+                <p class="role">${member.role}</p>
+                <p><em>"${member.quote}"</em></p>
+            `;
+      membersContainer.appendChild(memberDiv);
     });
+  })
+  .catch((error) => console.error("Error loading members:", error));
 
-  fetch("./data/events.json")
-    .then((response) => response.json())
-    .then((events) => {
-      events.sort((a, b) => new Date(b.date) - new Date(a.date));
-      let eventsList = document.getElementById("events-list");
-      events.forEach((event) => {
-        let listItem = document.createElement("li");
-        listItem.innerHTML = `<strong><a class="member-link">${event.name}</a></strong> ${event.date} - ${event.score} points (${event.place}th)`;
-        eventsList.appendChild(listItem);
-      });
+fetch("./data/events.json")
+  .then((response) => response.json())
+  .then((data) => {
+    data.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    const eventsContainer = document.getElementById("events");
+    data.forEach((event) => {
+      const eventDiv = document.createElement("div");
+      eventDiv.classList.add("event");
+      eventDiv.innerHTML = `
+                <h2>${event.name}</h2>
+                <p class="score"><strong>Score:</strong> ${event.score} - <strong>Place:</strong> ${event.place}</p>
+                <p>${event.date}</p>
+            `;
+      eventsContainer.appendChild(eventDiv);
     });
-});
+  })
+  .catch((error) => console.error("Error loading events:", error));

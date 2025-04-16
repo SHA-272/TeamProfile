@@ -3,16 +3,6 @@ let currentSection = 0;
 
 const sections = document.querySelectorAll(".section");
 
-document.addEventListener("wheel", function (event) {
-  if (isScrolling) return;
-
-  if (event.deltaY > 0) {
-    scrollPage(1);
-  } else {
-    scrollPage(-1);
-  }
-});
-
 document.addEventListener("keydown", function (event) {
   if (isScrolling) return;
 

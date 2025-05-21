@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SHA-272 Team Profile</title>
-    <link rel="stylesheet" href="styles/retrowave.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#section1">Main</a></li>
-          <li><a href="#section2">Members</a></li>
-          <li><a href="#section3">CTFs</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="sections">
-      <div class="section flow" id="section1">
-        <h1>Welcome to SHA-272 Team Profile</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHA-272 Team Profile</title>
+  <link rel="stylesheet" href="retrowave.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="retrowave-bg"></div>
+  <div class="scanlines"></div>
+  
+  <header>
+    <div class="logo">
+      <img src="images/team_logo_new_2.png" alt="SHA-272 Logo" class="team-logo">
+      <h1 class="neon-text">SHA-272</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#section1" class="nav-link">Main</a></li>
+        <li><a href="#section2" class="nav-link">Members</a></li>
+        <li><a href="#section3" class="nav-link">CTFs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="section1" class="section">
+      <div class="intro">
+        <h2 class="glitch-text" data-text="Welcome to SHA-272 Team Profile">Welcome to SHA-272 Team Profile</h2>
+        <div class="team-info">
+          <p>An elite cybersecurity team specializing in CTF competitions,</p>
+          <p>Krasnodar University of the Ministry of Internal Affairs of Russia.</p>
+        </div>
         <div class="links">
-          <a href="https://ctftime.org/team/202266" target="_blank"
-            >CTFTime Profile</a
-          >
-          <a href="https://krductf.ru" target="_blank">KRDUCTF</a>
+          <a href="https://ctftime.org/team/202266" target="_blank" class="neon-button">
+            CTFTime Profile
+          </a>
+          <a href="https://krductf.ru" target="_blank" class="neon-button">
+            KRDUCTF
+          </a>
         </div>
       </div>
-      <div class="section flow" id="section2">
-        <h1>Team Members</h1>
-        <div id="members"></div>
-        <h1>Veterans</h1>
-        <div id="veterans"></div>
-      </div>
-      <div class="section flow" id="section3">
-        <h1>CTF Events</h1>
-        <div id="events"></div>
-      </div>
-    </div>
-    <script src="scripts/scroll.js"></script>
-    <script src="scripts/load.js"></script>
-    <script src="scripts/flow.js"></script>
-  </body>
+    </section>
+
+    <section id="section2" class="section">
+      <h2 class="section-title neon-text">Team Members</h2>
+      <div id="members" class="members-grid"></div>
+
+      <h2 class="section-title neon-text">Veterans</h2>
+      <div id="veterans" class="members-grid"></div>
+    </section>
+
+    <section id="section3" class="section">
+      <h2 class="section-title neon-text">CTF Events</h2>
+      <div id="events" class="events-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="neon-text">&copy; 2025 SHA-272 Team</p>
+  </footer>
+
+  <script src="retrowave.js"></script>
+</body>
 </html>

@@ -1,140 +1,347 @@
 [
   {
-    "name": "VKACTF",
-    "score": 2903,
-    "place": 8,
-    "date": "2023-06-04"
+    "name": "BYUCTF 2025",
+    "score": 270,
+    "place": 583
   },
   {
-    "name": "Break the Syntax CTF 2023",
-    "score": 106,
-    "place": 115,
-    "date": "2023-06-02"
-  },
-  {
-    "name": "Security Fest 2023",
-    "score": 141,
-    "place": 141,
-    "date": "2023-05-25"
-  },
-  {
-    "name": "BYUCTF 2023",
-    "score": 1579,
-    "place": 220,
-    "date": "2023-05-19"
-  },
-  {
-    "name": "Grey Cat The Flag 2023 Qualifers",
+    "name": "Cyshock - The Awakening",
     "score": 100,
-    "place": 274,
-    "date": "2023-05-19"
+    "place": 302
   },
   {
-    "name": "JerseyCTF III",
-    "score": 100,
-    "place": 426,
-    "date": "2023-04-15"
-  },
-  {
-    "name": "VolgaCTF 2023 Qualifer",
-    "score": 10,
-    "place": 127,
-    "date": "2023-04-13"
-  },
-  {
-    "name": "Texas Security Awareness Week 2023",
-    "score": 50,
-    "place": 219,
-    "date": "2023-04-15"
-  },
-  {
-    "name": "Midnight Sun CTF 2023 Quals",
-    "score": 28,
-    "place": 311,
-    "date": "2023-04-08"
-  },
-  {
-    "name": "cursedCTF 2023",
-    "score": 569,
-    "place": 177,
-    "date": "2023-04-08"
-  },
-  {
-    "name": "DamCTF 2023",
-    "score": 100,
-    "place": 333,
-    "date": "2023-04-08"
-  },
-  {
-    "name": "VishwaCTF 2023",
-    "score": 4164,
-    "place": 25,
-    "date": "2023-03-31"
-  },
-  {
-    "name": "MIACTF 2023",
-    "score": 1501,
-    "place": 2,
-    "date": "2023-05-04"
-  },
-  {
-    "name": "KVVUCTF 2023",
-    "score": 1462,
-    "place": 3,
-    "date": "2023-04-26"
-  },
-  {
-    "name": "KubanCTF Qualifier",
-    "score": 2074,
-    "place": 15,
-    "date": "2023-09-23"
-  },
-  {
-    "name": "KubanCTF Quals",
-    "score": 12708,
-    "place": 2,
-    "date": "2023-10-12"
-  },
-  {
-    "name": "KubanCTF Final",
-    "score": 564,
-    "place": 10,
-    "date": "2023-10-13"
-  },
-  {
-    "name": "DefCamp Capture the Flag (D-CTF) 2023 Quals",
-    "score": 190,
-    "place": 111,
-    "date": "2023-10-22"
-  },
-  {
-    "name": "DEADFACE CTF 2023",
-    "score": 2671,
-    "place": 118,
-    "date": "2023-10-22"
-  },
-  {
-    "name": "CTF Cup 2023",
+    "name": "TsukuCTF 2025",
     "score": 200,
-    "place": 81,
-    "date": "2023-10-28"
+    "place": 582
   },
   {
-    "name": "Cybercolliseum 2023",
+    "name": "BSidesSF 2025 CTF",
+    "score": 700,
+    "place": 182
+  },
+  {
+    "name": "CTF@CIT 2025",
+    "score": 10,
+    "place": 937
+  },
+  {
+    "name": "SwampCTF 2025",
+    "score": 1130,
+    "place": 154
+  },
+  {
+    "name": "WolvCTF 2025",
+    "score": 50,
+    "place": 426
+  },
+  {
+    "name": "WatCTF W25",
+    "score": 501,
+    "place": 77
+  },
+  {
+    "name": "Nowruz 1404",
+    "score": 100,
+    "place": 233
+  },
+  {
+    "name": "UTCTF 2025",
+    "score": 300,
+    "place": 601
+  },
+  {
+    "name": "Ugra CTF Quals 2025",
+    "score": 350,
+    "place": 99
+  },
+  {
+    "name": "PwnMe CTF Quals 2025",
+    "score": 100,
+    "place": 529
+  },
+  {
+    "name": "ApoorvCTF 2025",
+    "score": 100,
+    "place": 436
+  },
+  {
+    "name": "ACECTF 1.0",
+    "score": 300,
+    "place": 511
+  },
+  {
+    "name": "TRX CTF 2025",
+    "score": 50,
+    "place": 432
+  },
+  {
+    "name": "BroncoCTF 2025",
+    "score": 11,
+    "place": 618
+  },
+  {
+    "name": "EHAX CTF 2025",
+    "score": 100,
+    "place": 279
+  },
+  {
+    "name": "LA CTF 2025",
+    "score": 124,
+    "place": 869
+  },
+  {
+    "name": "ATC Winter Vibes Community CTF",
+    "score": 375,
+    "place": 92
+  },
+  {
+    "name": "IrisCTF 2025",
+    "score": 100,
+    "place": 847
+  },
+  {
+    "name": "ASIS CTF Finals 2024",
+    "score": 43,
+    "place": 78
+  },
+  {
+    "name": "Wargames.MY CTF 2024",
+    "score": 50,
+    "place": 257
+  },
+  {
+    "name": "NTUA_H4CK",
+    "score": 110,
+    "place": 112
+  },
+  {
+    "name": "TSG CTF 2024",
+    "score": 200,
+    "place": 130
+  },
+  {
+    "name": "niteCTF 2024",
+    "score": 10,
+    "place": 927
+  },
+  {
+    "name": "SECCON CTF 13 Quals",
+    "score": 50,
+    "place": 408
+  },
+  {
+    "name": "BlockCTF 2024 (Formerly SquareCTF)",
+    "score": 1,
+    "place": 386
+  },
+  {
+    "name": "EKOPARTY CTF 2024",
+    "score": 89,
+    "place": 302
+  },
+  {
+    "name": "M*CTF 2024 Quals",
+    "score": 20175,
+    "place": 20
+  },
+  {
+    "name": "Russian CTF Cup 2024 Qualifier",
+    "score": 25,
+    "place": 193
+  },
+  {
+    "name": "DefCamp Capture the Flag (D-CTF) 2024 Quals",
+    "score": 51,
+    "place": 397
+  },
+  {
+    "name": "H7CTF International",
+    "score": 175,
+    "place": 342
+  },
+  {
+    "name": "KubanCTF Qualifier 2024",
+    "score": 600,
+    "place": 205
+  },
+  {
+    "name": "idekCTF 2024",
+    "score": 200,
+    "place": 558
+  },
+  {
+    "name": "Wani CTF 2024",
+    "score": 352,
+    "place": 722
+  },
+  {
+    "name": "ångstromCTF 2024",
+    "score": 100,
+    "place": 589
+  },
+  {
+    "name": "L3akCTF 2024",
+    "score": 50,
+    "place": 436
+  },
+  {
+    "name": "TJCTF 2024",
+    "score": 222,
+    "place": 371
+  },
+  {
+    "name": "BYUCTF 2024",
+    "score": 600,
+    "place": 538
+  },
+  {
+    "name": "TBTL CTF 2024",
+    "score": 100,
+    "place": 759
+  },
+  {
+    "name": "BSidesSF 2024 CTF",
+    "score": 500,
+    "place": 270
+  },
+  {
+    "name": "Cybercoliseum Ⅲ",
+    "score": 5050,
+    "place": 75
+  },
+  {
+    "name": "Incognito 5.0",
+    "score": 100,
+    "place": 257
+  },
+  {
+    "name": "LA CTF 2024",
+    "score": 116,
+    "place": 934
+  },
+  {
+    "name": "ASIS CTF Finals 2023",
+    "score": 30,
+    "place": 254
+  },
+  {
+    "name": "The Cyber Cooperative CTF",
+    "score": 100,
+    "place": 410
+  },
+  {
+    "name": "Hackappatoi CTF '23",
+    "score": 50,
+    "place": 378
+  },
+  {
+    "name": "TUCTF 2023",
+    "score": 10,
+    "place": 696
+  },
+  {
+    "name": "Cybercoliseum II",
     "score": 2850,
-    "place": 168,
-    "date": "2023-11-11"
+    "place": 168
   },
   {
-    "name": "ARCTF 2023",
-    "score": 7300,
-    "place": 3,
-    "date": "2023-11-25"
+    "name": "EKOPARTY CTF 2023",
+    "score": 388,
+    "place": 193
   },
   {
-    "name": "VolgaCTF 2024 Qualifier",
-    "score": 345,
-    "place": 83,
-    "date": "2024-03-30"
+    "name": "Russian CTF Cup 2023 Qualifier",
+    "score": 200,
+    "place": 81
+  },
+  {
+    "name": "N1CTF 2023",
+    "score": 50,
+    "place": 603
+  },
+  {
+    "name": "SECCON CTF 2023 Quals",
+    "score": 50,
+    "place": 390
+  },
+  {
+    "name": "DeadSec CTF 2023",
+    "score": 1,
+    "place": 335
+  },
+  {
+    "name": "ångstromCTF 2023",
+    "score": 30,
+    "place": 1166
+  },
+  {
+    "name": "Russian CTFCUP 2022",
+    "score": 200,
+    "place": 81
+  },
+  {
+    "name": "Digital Overdose 2022 Autumn CTF",
+    "score": 100,
+    "place": 327
+  },
+  {
+    "name": "COMPFEST CTF 2022",
+    "score": 25,
+    "place": 172
+  },
+  {
+    "name": "ISITDTU CTF 2022 Quals",
+    "score": 10,
+    "place": 157
+  },
+  {
+    "name": "EKOPARTY CTF 2022",
+    "score": 2312,
+    "place": 64
+  },
+  {
+    "name": "M*CTF 2022 Quals",
+    "score": 1786,
+    "place": 42
+  },
+  {
+    "name": "Hack The Boo",
+    "score": 600,
+    "place": 1969
+  },
+  {
+    "name": "TsukuCTF 2022",
+    "score": 1495,
+    "place": 125
+  },
+  {
+    "name": "Cryptoverse CTF 2022",
+    "score": 1409,
+    "place": 140
+  },
+  {
+    "name": "Jade CTF",
+    "score": 300,
+    "place": 224
+  },
+  {
+    "name": "3rd stage MetaRed CTF Mexico",
+    "score": 0,
+    "place": 144
+  },
+  {
+    "name": "DEADFACE CTF",
+    "score": 310,
+    "place": 438
+  },
+  {
+    "name": "Srdnlen CTF 2022",
+    "score": 583,
+    "place": 53
+  },
+  {
+    "name": "GDG Algiers CTF 2022",
+    "score": 70,
+    "place": 505
   }
 ]

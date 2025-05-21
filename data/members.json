@@ -1,19 +1,7 @@
 [
   {
-    "name": "magecode",
-    "role": "Reverse, PPC, PWN",
-    "quote": "Writing code is like magic, it creates wonders",
-    "link": "https://t.me/magecode"
-  },
-  {
-    "name": "Shinbae",
-    "role": "Cryptography Guru",
-    "quote": "Well.... somehow your ciphers is nothing",
-    "link": "https://t.me/UnShinbae"
-  },
-  {
     "name": "torontokyo",
-    "role": "WEB, Osint",
+    "role": "Web, Osint",
     "quote": "A champion and a winner in everything",
     "link": "https://t.me/torontokyo69"
   },
@@ -22,5 +10,23 @@
     "role": "Forensics",
     "quote": "Your deleted data will become mine",
     "link": "https://t.me/Gl0omer"
+  },
+  {
+    "name": "RdQa",
+    "role": "Steganography",
+    "quote": "",
+    "link": "https://t.me/Rodddya8"
+  },
+  {
+    "name": "tip0k",
+    "role": "Reverse",
+    "quote": "No data",
+    "link": "https://t.me/The_immortal_demon_king"
+  },
+  {
+    "name": "Incap",
+    "role": "Osint",
+    "quote": "No data",
+    "link": "https://t.me/incap272"
   }
 ]
